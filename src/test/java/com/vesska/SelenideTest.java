@@ -1,7 +1,9 @@
 package com.vesska;
 
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
+import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -20,6 +22,8 @@ public class SelenideTest {
     @DisplayName("Проверка наличия Issue в репозитории")
     @Test
     public void openIssueTest() {
+
+        SelenideLogger.addListener("allure", new AllureSelenide());
 
         open("https://github.com/");
 
