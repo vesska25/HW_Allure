@@ -1,11 +1,11 @@
 package com.vesska.config;
 
 import com.codeborne.selenide.Configuration;
+
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class WebDriverProvider {
-
     static WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
 
     public static void config() {

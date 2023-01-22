@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17e4e547-c6ac-425b-b7e9-fed787257597" name="Changes" comment="added Listener">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vesska/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vesska/config/WebDriverConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vesska/config/WebDriverProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/remote.properties" afterDir="false" />
+    <list default="true" id="17e4e547-c6ac-425b-b7e9-fed787257597" name="Changes" comment="added owner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vesska/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vesska/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vesska/config/WebDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vesska/config/WebDriverConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vesska/config/WebDriverProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vesska/config/WebDriverProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672993172211</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added owner">
+      <created>1674418323926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674418323926</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +255,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added new tests" />
     <MESSAGE value="added Listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Listener" />
+    <MESSAGE value="added owner" />
+    <option name="LAST_COMMIT_MESSAGE" value="added owner" />
   </component>
 </project>
